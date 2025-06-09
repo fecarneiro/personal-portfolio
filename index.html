@@ -4,50 +4,81 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Portfólio Dev - Felipe</title>
-
         <meta name="author" content="Felipe Iafigliola Carneiro" />
         <meta
             name="description"
             content="Portfólio do Felipe Iafigliola Carneiro (GitHub: feelipino) que tem como objetivo apresentar a carreira profissional e conhecimentos técnicos do Desenvolvedor de Software."
         />
-
+        <!-- Favicon -->
         <link rel="favicon" type="image/x-icon" href="/images/favicon.ico" />
-
+        <!-- Font -->
+        <link
+        href="http://fonts.googleapis.com/css?family=Open+Sans"
+        rel="stylesheet" />
+        <!-- CSS -->
+        <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="style.css">
     </head>
     <!-- Body -->
     <body>
-        <!-- Navigation -->
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Currículo</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
+
+
         <!-- Header -->
         <header>
-            <h1 id="Home">Felipe Iafigliola Carneiro</h1>
-            <h1>Software Developer</h1>
+            <!-- Navigation -->
+            <nav>
+                <div class="navbar">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Projetos</a></li>
+                        <li><a href="#">Currículo</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+            </nav>
         </header>
-        <!-- Image -->
-        <img src="https://placehold.co/400" alt="" />
+
+
+
         <!-- Main Content -->
         <main>
-            <!-- About -->
-            <section>
-                <h2 id="Sobre">Sobre</h2>
-                <p>
-                    Desenvolvedor de Software com foco em criação de APIs RESTful backend, utilizando principalmente Node.js com Express.js e Java com Spring Boot. Para o frontend utilizo HTML, CSS e JavaScript.
-                </p>
-                <p>
-                    Possuo experiência prévia como Scrum Master, o que me proporciona uma forte base em metodologias ágeis, organização de times, processos de desenvolvimento de software, User Experience, definições de roadmap, relacionamento com stakeholders e ferramentas de gestão como Jira.
-                </p>
+
+
+
+            <!-- Home -->
+            <section id="home">
+                <!-- Home Name -->
+                <div class="home-name">
+                    <h1>Felipe Carneiro</h1>
+                </div>
+                <!-- Home Subtitle -->
+                <div class="home-subtitle">
+                    <h1>Software Developer</h1>
+                </div>
+                <!-- Home Image -->
+                <div class="home-image">
+                    <img src="https://placehold.co/400" alt="" />
+                </div>
             </section>
+
+
+            <!-- About -->
+            <section id="sobre">
+                <div>
+                    <h2>Sobre</h2>
+                    <p>
+                        Desenvolvedor de Software com foco em criação de APIs RESTful backend, utilizando principalmente Node.js com Express.js e Java com Spring Boot. Para o frontend utilizo HTML, CSS e JavaScript.
+                    </p>
+                    <p>
+                        Possuo experiência prévia como Scrum Master, o que me proporciona uma forte base em metodologias ágeis, organização de times, processos de desenvolvimento de software, User Experience, definições de roadmap, relacionamento com stakeholders e ferramentas de gestão como Jira.
+                    </p>
+                </div>
+            </section>
+
+
             <!-- Technologies -->
             <section>
-                <h2 id="Tecnologias"><b>Tecnologias</b></h2>
+                <h2 id="tecnologias">Tecnologias</h2>
                 <ul>
                     <li>Linguagens e Frameworks Backend: Node.js, Express.js, Java, Spring Boot</li>
                     <li>Linguagens Frontend: HTML, CSS, JavaScript</li>
@@ -58,16 +89,24 @@
                     <li>Metodologias Ágeis e Gestão: Scrum, Kanban, Jira, Trello</li>
                 </ul>
             </section>
+
+
         </main>
+
+
+
         <!-- Footer -->
         <footer>
-            <h2 id="Contato"><b>Contato</b></h2>
+            <h2 id="contato">Contato</h2>
             <ul>
                 <li><a href="mailto:fe.iacarneiro@gmail.com">Email</a></li>
                 <li><a href="https://api.whatsapp.com/send/?phone=5519996501121&text&type=phone_number&app_absent=0">WhatsApp</a></li>
                 <li><a href="https://github.com/feelipino">GitHub</a></li>
                 <li><a href="https://www.linkedin.com/in/felipe-iafigliola-carneiro/">LinkedIn</a></li>
+
             </ul>
         </footer>
+
+
     </body>
 </html>
