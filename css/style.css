@@ -1,58 +1,58 @@
-/* ------------ HTML ------------ */
+/* Estilos Base - Mobile Fist */
 
 html {
-    font-size: 10px;
+    font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     background-color: #1d1e22;
     color: white;
 }
 
 
-
-/* ------------ Body ------------ */
-
 body {
     margin: 0;
 }
 
 
-
-/* ------------ Header ------------ */
-
-/* ------ Nav Bar ------ */
-
 .navbar {
-    background-color: #393f4d;
     height: 50px;
     border: 1px solid red;
-    /* position: fixed; */
+
 }
 
 .nav-list {
     list-style-type: none;
-    /* display: flex;
-    justify-content: space-around; */
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     border: 1px dotted pink;
 }
 
 .nav-item {
-    float: right;
+
 }
 
 .nav-link {
+    padding: 14px 16px;
     display: block;
     color: white;
     text-decoration: none;
-    text-align: center;
-    padding: 14px 16px;
 
 }
 
+.nav-link:hover {
+    background-color: #393f4d;
+}
 
+.nav-link:active {
+    background-color: #feda6a;
+}
 
+.nav-link:focus {
+    background-color:
+}
 
 
 h1 {
@@ -82,4 +82,12 @@ Are ya yellow?!: #feda6a
 Silver Fox: #d4d4dc
 Deep Matte Grey: #393f4d
 Dark Slate: #1d1e22
+*/
+
+/*
+Breakpoints:
+Padrão mobile atual: 320px a 599px, fora de @media
+1) Tablets na Vertical / Celulares Grandes: 600px
+2) Tablets na Horizontal / Desktops Pequenos: 900px
+
 */
