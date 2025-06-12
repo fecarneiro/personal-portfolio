@@ -8,6 +8,11 @@
   box-sizing: border-box;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 h1 {
   font-size: 40px;
   text-align: center;
@@ -35,27 +40,25 @@ li {
 /* Navbar */
 
 .navbar {
-  background-color: #1d1e22;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
+  background-color: #8691ba;
   padding: 1.5rem 3rem;
+
 }
 
 /* Menu - Nav List */
 
-.nav-list {
-  display: flex;
-  align-items: center;
-}
-
 .nav-list ul {
+
+  justify-content: center;
   display: flex;
   list-style: none;
-  gap: 10px;
+  gap: 30px;
 }
 
+
 .nav-link {
+
+  text-transform: uppercase;
   font-size: 1.2rem;
   font-weight: 700;
   text-decoration: none;
@@ -95,7 +98,13 @@ li {
 }
 
 .home-image {
-  
+
+}
+
+.home-image img {
+  max-width: 450px;
+  border-radius: 50%;
+  border: 10px solid #feda6a;
 }
 
 /* About */
