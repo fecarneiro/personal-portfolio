@@ -190,10 +190,31 @@ li {
   color: #feda6a;
 }
 
-.technologies li {
-  list-style: none;
+.technologies p {
   color: white;
 }
+
+/*------ frontend ------*/
+
+.frontend {
+  display: flex;
+}
+
+.frontend p {
+
+}
+
+.frontend-icons {
+  display: flex;
+  
+}
+
+.frontend i {
+  color: white;
+}
+
+/*------ backend ------*/
+
 
 /*-------------------- contact --------------------*/
 
