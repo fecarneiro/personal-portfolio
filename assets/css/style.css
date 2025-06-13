@@ -40,13 +40,11 @@ li {
 }
 
 
-/* Navbar */
+/*-------------------- navbar --------------------*/
 .navbar {
   background-color:  #27292f;
   padding: 1.5rem 3rem;
 }
-
-/* Menu - Nav List */
 
 .nav-list ul {
 
@@ -72,7 +70,7 @@ li {
 }
 
 
-/* Home */
+/*-------------------- home --------------------*/
 
 .home {
   min-height: 100vh;
@@ -99,18 +97,90 @@ li {
   line-height: 1.2;
 }
 
+.home-image {
+  
+}
+
 .home-image img {
   max-width: 400px;
   border-radius: 50%;
   border: 10px solid #feda6a;
+
 }
 
-/* About */
+/*-------------------- about --------------------*/
 
 .about {
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px
 }
 
+.about h2 {
+  color: #feda6a;
+}
+
+.about p {
+  font-weight: 500;
+  padding: 0 30px;
+
+}
+
+/*-------------------- technologies --------------------*/
+
 .technologies {
-  
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px
+}
+
+
+.technologies h2 {
+  color: #feda6a;
+  margin-top: 50px;
+}
+
+
+.technologies li {
+  list-style: none;
+  color: white;
+}
+
+/*-------------------- contact --------------------*/
+
+footer {
+  background-color: #1d1e22;
+}
+
+.contact {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 50px;
+}
+
+.contact h2 {
+  color: #feda6a;
+  margin-top: 50px;
+
+}
+
+.contact ul {
+  display: flex;
+  direction: row;
+  gap: 30px;
+}
+
+.contact li {
+  list-style: none;
+
+.contact-link {
+  text-decoration: none;
+  color: white;
 }
