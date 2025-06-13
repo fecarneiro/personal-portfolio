@@ -33,7 +33,6 @@ h2 {
 
 p,
 li {
-  font-size: 14px;
   line-height: 1.6;
   letter-spacing: 1px;
 }
@@ -59,15 +58,11 @@ li {
   justify-content: center;
   list-style: none;
   gap: 100px;
-
 }
 
 .nav-list li {
   display: flex;
-
-
 }
-
 
 .nav-link {
   /* text-transform: uppercase; */
@@ -129,9 +124,8 @@ li {
   display: flex;
   margin-top: 20px;
   color: white;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   gap: 20px;
-
 }
 
 .home-icons i {
@@ -139,7 +133,7 @@ li {
 }
 
 .home-icons i:hover {
-  color:#feda6a;
+  color: #feda6a;
 }
 
 /*--------- home-img --------- */
@@ -151,10 +145,6 @@ li {
 }
 
 /*-------------------- about --------------------*/
-
-#about {
-
-}
 
 .about {
   color: white;
@@ -194,27 +184,30 @@ li {
   color: white;
 }
 
-/*------ frontend ------*/
+/*---------- tags ----------*/
 
-.frontend {
+
+
+/*---- tags-global ----*/
+
+.stack {
   display: flex;
+  flex-direction: column;
 }
 
-.frontend p {
-
-}
-
-.frontend-icons {
+.stack-tags {
   display: flex;
-  
+  gap: 30px;
 }
 
-.frontend i {
-  color: white;
+.tech-tag {
+  display: flex;
+  gap: 8px;
 }
 
-/*------ backend ------*/
-
+.tech-tag i {
+  font-size: 1.5rem;
+}
 
 /*-------------------- contact --------------------*/
 
