@@ -1,16 +1,24 @@
 /* Global */
 @import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
 * {
-  font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+header {
+  background-color: #1d1e22;
+}
+
+section {
+  background-color: #1d1e22;
 }
 
 h1 {
@@ -31,18 +39,11 @@ li {
   letter-spacing: 1px;
 }
 
-/* .container {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-} */
 
 /* Navbar */
-
 .navbar {
-  background-color: #8691ba;
+  background-color:  #27292f;
   padding: 1.5rem 3rem;
-
 }
 
 /* Menu - Nav List */
@@ -52,18 +53,22 @@ li {
   justify-content: center;
   display: flex;
   list-style: none;
-  gap: 30px;
+  gap: 90px;
 }
 
 
 .nav-link {
 
   text-transform: uppercase;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 700;
   text-decoration: none;
   color: #fff;
+  padding: 14px 16px;
+}
 
+.nav-link:hover {
+  background-color: #1d1e22;
 }
 
 
@@ -77,9 +82,6 @@ li {
   align-items: center
 }
 
-.home-text {
-
-}
 
 .home-name h1 {
   text-transform: uppercase;
@@ -97,12 +99,8 @@ li {
   line-height: 1.2;
 }
 
-.home-image {
-
-}
-
 .home-image img {
-  max-width: 450px;
+  max-width: 400px;
   border-radius: 50%;
   border: 10px solid #feda6a;
 }
@@ -110,8 +108,9 @@ li {
 /* About */
 
 .about {
-  display: flex;
-  gap:30px;
-  align-items: center;
-  padding: 0 50px;
+  color: white;
+}
+
+.technologies {
+  
 }
