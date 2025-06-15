@@ -213,11 +213,60 @@ p {
   font-weight: 600;
 }
 
+
+
 /*-------------------- projects --------------------*/
 
-.projects h2 {
+.projects-container h2 {
   color: #feda6a;
 }
+
+/* Projects-container */
+
+.projects {
+}
+
+/*----------- Project Display Container -----------*/
+
+.project-display-container {
+  color: #fff;
+  display: flex;
+}
+
+/* Image */
+
+.project-image {
+
+}
+
+/* project-text-container */
+
+.project-text-container {
+  
+}
+
+/* project-title */
+
+.project-title {
+
+}
+
+/* project-description */
+.project-description {
+
+}
+/* Project-Tags */
+.project-tags {
+  display: flex;
+}
+
+/* project-tech-tag */
+project-tech-tag {
+
+}
+
+
+
 
 
 /*-------------------- contact --------------------*/
