@@ -33,8 +33,8 @@ h2 {
 
 p,
 li {
-  line-height: 1.6;
-  letter-spacing: 1px;
+  line-height: 1.8;
+  letter-spacing: 1.4px;
 }
 
 /*-------------------- hero-container --------------------*/
@@ -155,15 +155,16 @@ li {
   padding: 30px;
   background-color: #27292f;
   border-radius: 10px;
+  width: 70%;
 }
 
 .about h2 {
   color: #feda6a;
 }
 
-.about p {
-  font-weight: 500;
-}
+/* .about p {
+  font-weight: 400;
+} */
 
 /*-------------------- technologies --------------------*/
 
@@ -186,28 +187,34 @@ li {
 
 /*---------- tags ----------*/
 
-
-
 /*---- tags-global ----*/
 
 .stack {
   display: flex;
   flex-direction: column;
+  background-color: #27292f;
+  padding: 30px 50px;
+  border-radius: 10px;
+}
+
+.stack-title {
+  margin-bottom: 1rem;
 }
 
 .stack-tags {
   display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
-  gap: 15px;
+  grid-template-columns: repeat(3, 150px);
+  gap: 10px;
 }
 
 .tech-tag {
   display: flex;
+  align-items: center;
   gap: 8px;
 }
 
 .tech-tag i {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 /*-------------------- contact --------------------*/
