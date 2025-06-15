@@ -155,7 +155,7 @@ p {
   font-weight: 400;
 } */
 
-/*-------------------- technologies --------------------*/
+/*----------------- technologies -----------------*/
 
 .technologies {
   color: white;
@@ -174,9 +174,7 @@ p {
   color: white;
 }
 
-/*---------- tags ----------*/
-
-/*---- tags-global ----*/
+/*---------- stack tags ----------*/
 
 .stack {
   display: flex;
@@ -214,6 +212,13 @@ p {
   font-size: 0.9rem;
   font-weight: 600;
 }
+
+/*-------------------- projects --------------------*/
+
+.projects h2 {
+  color: #feda6a;
+}
+
 
 /*-------------------- contact --------------------*/
 
