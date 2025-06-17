@@ -243,6 +243,7 @@ p {
   display: flex;
   background-color: #27292f;
   padding: 2rem;
+  align-items: center;
 }
 
 /* Image */
@@ -258,7 +259,7 @@ p {
  display: flex;
  flex-direction: column;
  gap: 2rem;
- padding: 0 2rem;
+ padding-left: 2rem;
 }
 
 /* project-title */
