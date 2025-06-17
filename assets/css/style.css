@@ -136,7 +136,8 @@ p {
 .home-image img {
   max-width: 400px;
   border-radius: 50%;
-  border: 10px solid #feda6a;
+  border: 6px solid #feda6a;
+  background-color:#27292f
 }
 
 /*-------------------- about --------------------*/
@@ -267,7 +268,7 @@ p {
 }
 
 .project-image img:hover {
-  opacity: 0.6;
+  opacity: 0.8;
   transition: .5s ease;
 }
 
