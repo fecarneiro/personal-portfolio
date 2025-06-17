@@ -207,6 +207,7 @@ p {
   background-color: #27292f;
   border-radius: 10px;
   padding: 10px;
+  border: solid 0.2px #fff;
 }
 
 .tech-tag i {
@@ -256,9 +257,18 @@ p {
 
 /* Image */
 
-.project-image {
 
 
+.project-image img {
+  width: 350px;
+  border-radius: 20px;
+  border: solid 0.2px #fff;
+
+}
+
+.project-image img:hover {
+  opacity: 0.6;
+  transition: .5s ease;
 }
 
 /* project-text-container */
