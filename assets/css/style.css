@@ -135,9 +135,9 @@ p {
 
 .home-image img {
   max-width: 400px;
-  border-radius: 50%;
-  border: 6px solid #feda6a;
-  background-color:#27292f
+  border-radius: 20%;
+  border: 3px solid #feda6a;
+  background-color: #27292f
 }
 
 /*-------------------- about --------------------*/
@@ -258,8 +258,6 @@ p {
 
 /* Image */
 
-
-
 .project-image img {
   width: 350px;
   border-radius: 20px;
@@ -325,6 +323,15 @@ footer {
 
 .contact h2 {
   color: #feda6a;
+}
+
+.contact-form {
+  /* display: flex;
+  justify-content: center; */
+}
+
+.form-name-email {
+  display: flex;
 }
 
 .contact-icons {
