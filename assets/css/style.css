@@ -21,7 +21,12 @@ section {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 p {
@@ -272,6 +277,7 @@ p {
 
 /* project-description */
 .project-description {
+  font-size: 0.8rem;
 }
 /* Project-Tags */
 .project-tags {
@@ -282,7 +288,7 @@ p {
 /* project-tech-tag */
 .project-tech-tag {
   background-color: #1d1e22;
-  padding: 0.7rem;
+  padding: 0.6rem;
   border-radius: 20px;
   font-size: 0.8rem;
 }
