@@ -311,7 +311,7 @@ p {
 /*-------------------- contact --------------------*/
 
 footer {
-  background-color: #27292f;
+  background-color: #1d1e22;
   padding: 30px 0;
 }
 
@@ -327,7 +327,7 @@ footer {
   color: #feda6a;
 }
 
-/* ------ form ------ */
+/*------ form ------*/
 
 .contact-form {
   display: flex;
@@ -339,6 +339,16 @@ input[type="text"],
 input[type="email"],
 textarea[name="message"] {
   padding: 10px;
+  background-color: #27292f;
+  border-radius: 10px;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.form-name label,
+.form-email label,
+.form-message label {
+  margin-bottom: 6px;
 }
 
 .form-name, .form-email, .form-message {
@@ -350,7 +360,7 @@ textarea[name="message"] {
 /* name + email */
 .form-name-email {
   display: flex;
-  gap: 10px;
+  gap: 14px;
 }
 
 
@@ -376,11 +386,39 @@ textarea[name="message"] {
 
 /* message */
 .form-message {
-
+margin-top: 18px;
 }
 
+.form-message textarea{
+height: 8rem
+}
 
-/* icons */
+/* button */
+
+.form-button {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 18px;
+}
+
+.button {
+  background-color: #27292f;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 5px 20px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  align-self: flex-end;
+}
+
+.button:hover {
+  color:#feda6a;
+}
+
+/*------ icons ------*/
 .contact-icons {
   display: flex;
   margin-top: 20px;
