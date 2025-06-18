@@ -30,8 +30,8 @@ h3 {
 }
 
 p {
-  line-height: 1.4;
-  letter-spacing: 1.5px;
+  line-height: 1.6;
+  letter-spacing: 1.2px;
 }
 
 /*-------------------- hero-container --------------------*/
@@ -335,6 +335,18 @@ footer {
   flex-direction: column;
 }
 
+input[type="text"],
+input[type="email"],
+textarea[name="message"] {
+  padding: 10px;
+}
+
+.form-name, .form-email, .form-message {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+}
+
 /* name + email */
 .form-name-email {
   display: flex;
@@ -344,9 +356,7 @@ footer {
 
 /* name */
 .form-name {
-display: flex;
-flex-direction: column;
-font-size: 1rem;
+
 }
 
 .form-name-label {
@@ -360,8 +370,7 @@ font-size: 1rem;
 
 /* email */
 .form-email {
-  display: flex;
-  flex-direction: column;
+
 }
 
 
