@@ -13,7 +13,7 @@
 }
 
 header {
-  background-color: #1d1e22;
+  background-color: #27292f
 }
 
 section {
@@ -31,7 +31,7 @@ h3 {
 
 p {
   line-height: 1.6;
-  letter-spacing: 1.2px;
+  letter-spacing: 1px;
 }
 
 /*-------------------- hero-container --------------------*/
@@ -44,12 +44,18 @@ p {
 }
 
 /*-------------------- navbar --------------------*/
-.navbar {
+.navbar-content {
   background-color: #27292f;
   height: 70px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+}
+
+.logo p {
+  color:#feda6a;
+  font-weight: 600;
+  font-size: 1.2rem;
 }
 
 .nav-list ul {
@@ -137,9 +143,9 @@ p {
 
 .home-image img {
   max-width: 400px;
-  border-radius: 20%;
-  border: 3px solid #feda6a;
-  background-color: #27292f
+  border-radius: 50%;
+  border: 5px solid #feda6a;
+  background-color: #fff;
 }
 
 /*-------------------- about --------------------*/
@@ -283,8 +289,6 @@ p {
 
 /* project-title */
 
-.project-title {
-}
 
 /* project-description */
 .project-description {
@@ -364,32 +368,13 @@ textarea[name="message"] {
 }
 
 
-/* name */
-.form-name {
-
-}
-
-.form-name-label {
-
-}
-
-.form-name-input {
-
-}
-
-
-/* email */
-.form-email {
-
-}
-
 
 /* message */
 .form-message {
-margin-top: 18px;
+margin-top: 12px;
 }
 
-.form-message textarea{
+.form-message textarea {
 height: 8rem
 }
 
@@ -398,7 +383,7 @@ height: 8rem
 .form-button {
   display: flex;
   justify-content: flex-end;
-  margin-top: 18px;
+  margin-top: 12px;
 }
 
 .button {
