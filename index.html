@@ -351,33 +351,38 @@
       <div class="contact">
         <h2>Contato</h2>
 
-
-
         <!-- Form -->
         <div class="contact-form">
-          <form action="https://formspree.io/f/meokzony" method="post" class="form-example">
+          <form
+            action="https://formspree.io/f/meokzony"
+            method="post"
+            class="form-example"
+          >
+
+          <!-- email + name -->
             <div class="form-name-email">
               <div class="form-name">
-                <label for="name">Nome: </label>
-                <input type="text" name="name" id="name" required />
+                <label class="form-name-label" for="name">Nome</label>
+                <input class="form-name-input" type="text" name="name" id="name" required />
               </div>
+
               <div class="form-email">
-                <label for="email">Email: </label>
+                <label for="email">Email </label>
                 <input type="email" name="email" id="email" required />
               </div>
             </div>
+
             <div class="form-message">
-              <label for="msg">Mensagem:</label>
+              <label for="msg">Mensagem</label>
               <textarea id="msg" name="user_message"></textarea>
             </div>
 
             <div class="form-button">
               <input type="submit" value="Enviar" />
+            </div>
 
           </form>
         </div>
-
-
 
         <!-- Contact Icons -->
         <div class="contact-icons">

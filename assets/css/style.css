@@ -26,12 +26,12 @@ h2 {
 
 h3 {
   font-size: 1.2rem;
-  font-weight: 600;
+  font-weight:600;
 }
 
 p {
-  line-height: 1.8;
-  letter-spacing: 1.4px;
+  line-height: 1.4;
+  letter-spacing: 1.5px;
 }
 
 /*-------------------- hero-container --------------------*/
@@ -46,13 +46,17 @@ p {
 /*-------------------- navbar --------------------*/
 .navbar {
   background-color: #27292f;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-list ul {
   display: flex;
-  justify-content:end;
+  justify-content:center;
   list-style: none;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .nav-list li {
@@ -60,12 +64,10 @@ p {
 }
 
 .nav-link {
-  font-size: 0.9rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 400;
   text-decoration: none;
   color: #fff;
-  height: 100%;
-  padding: 1.2rem 1rem;
 }
 
 .nav-link:hover {
@@ -325,15 +327,51 @@ footer {
   color: #feda6a;
 }
 
+/* ------ form ------ */
+
 .contact-form {
-  /* display: flex;
-  justify-content: center; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
+/* name + email */
 .form-name-email {
   display: flex;
+  gap: 10px;
 }
 
+
+/* name */
+.form-name {
+display: flex;
+flex-direction: column;
+font-size: 1rem;
+}
+
+.form-name-label {
+
+}
+
+.form-name-input {
+
+}
+
+
+/* email */
+.form-email {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* message */
+.form-message {
+
+}
+
+
+/* icons */
 .contact-icons {
   display: flex;
   margin-top: 20px;
