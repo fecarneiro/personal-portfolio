@@ -432,5 +432,32 @@ body {
 }
 }
 
-@media only screen and (width <= 480px) {
+@media only screen and (width <= 560px) {
+  body {
+    background-color: rosybrown;
+  }
+
+  .stack-tags {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    padding-bottom: 50px;
+
+
+  }
+}
+
+@media only screen and (width <= 460px) {
+  body {
+    background-color:  rgb(42, 10, 10);
+  }
+
+  .stack-tags {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    padding-bottom: 50px;
+
+
+  }
 }
