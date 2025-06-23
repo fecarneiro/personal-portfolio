@@ -151,6 +151,10 @@ p {
 
 /*-------------------- about --------------------*/
 
+.about-container {
+  padding: 0 30px 80px 30px;
+}
+
 .about-content {
   color: white;
   display: flex;
@@ -172,8 +176,7 @@ p {
   color: white;
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  padding: 0 30px;
+  padding: 0 30px 30px 30px;
 }
 
 .technologies h2 {
@@ -189,33 +192,32 @@ p {
 .stack {
   display: flex;
   flex-direction: column;
+  padding: 0 30px;
 
 }
 
 .stack-title {
-  margin-bottom: 2rem;
-  text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 700;
+  padding-bottom: 20px;
 }
 
 .stack-tags {
-  /* display: grid;
-  grid-template-columns: repeat(5, 200px); */
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 4fr);
+  gap: 1rem;
+  padding-bottom: 50px;
+
+
 }
 
 .tech-tag {
   display: flex;
   align-items: center;
-  gap: 1rem;
   background-color: #27292f;
   border-radius: 10px;
   padding: 10px;
-  min-width: 250px;
-
+  gap: 1rem;
 }
 
 .tech-tag i {
@@ -236,13 +238,9 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
-  padding: 30px 0;
+  padding: 0 30px;
+  width: 100%;
 
-}
-
-.projects h2 {
-  color: #feda6a;
 }
 
 /* Projects-container */
@@ -250,7 +248,9 @@ p {
 .projects-container {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 40px;
+  padding: 0 30px;
+
 }
 
 /*----------- Project Display Container -----------*/
@@ -260,15 +260,14 @@ p {
   display: flex;
   background-color: #27292f;
   align-items: center;
-  padding: 0 30px;
+  padding: 30px;
 }
 
 /* Image */
 
 .project-image img {
-  max-width: 300px;
+  max-width: 350px;
   border-radius: 20px;
-  border: solid 0.2px #fff;
 
 }
 
@@ -343,7 +342,7 @@ textarea[name="message"] {
   background-color: #27292f;
   border-radius: 10px;
   color: #fff;
-  border: 1px solid #fff;
+  border: 1px solid #1d1e22;
 }
 
 .form-name label,
@@ -385,7 +384,7 @@ height: 8rem
 
 .button {
   background-color: #27292f;
-  border: 1px solid #fff;
+  border: 1px solid #1d1e22;
   color: #fff;
   padding: 5px 20px;
   text-align: center;
@@ -415,4 +414,23 @@ height: 8rem
 
 .contact-icons i:hover {
   color: #feda6a;
+}
+
+
+@media only screen and (width <= 850px) {
+body {
+  background-color: rgb(42, 10, 10);
+}
+
+.stack-tags {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding-bottom: 50px;
+
+
+}
+}
+
+@media only screen and (width <= 480px) {
 }
