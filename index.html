@@ -34,55 +34,372 @@
 
   <!-- Body -->
   <body>
-    <!-- Hero Container -->
-    <div class="hero-container">
-      <!-- Header -->
-      <header>
-        
-        <!-- Navigation  -->
+    <div class="container">
+      <!-- Hero -->
+      <div class="hero-container">
+        <!-- Header -->
+        <header>
+          <!-- Navigation  -->
 
-        <nav class="navbar-content container">
-          <div class="logo">
-            <p>Felipe Carneiro</p>
+          <nav class="navbar-content">
+            <div class="logo">
+              <p>Felipe Carneiro</p>
+            </div>
+
+            <div class="nav-list">
+              <ul>
+                <li>
+                  <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="#about">Sobre</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="#technologies">Tecnologias</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="#contato">Contato</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+
+        <!-- Home -->
+        <section id="home" class="home">
+          <!-- Home Name -->
+          <div class="home-text">
+            <div class="home-name">
+              <h1>Felipe Carneiro</h1>
+            </div>
+            <!-- Home Subtitle -->
+            <div class="home-sub">
+              <h1>Desenvolvedor Backend</h1>
+            </div>
+            <!-- Tagline -->
+            <div class="home-tagline">
+              <p>Transformando ideias em funcionalidades.</p>
+            </div>
+            <!-- Social Media -->
+            <div class="home-icons">
+              <a href="https://github.com/fecarneiro" target="_blank">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/felipe-iafigliola-carneiro/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="mailto:fe.iacarneiro@gmail.com" target="_blank">
+                <i class="fa-regular fa-envelope"></i>
+              </a>
+            </div>
           </div>
 
-          <div class="nav-list">
-            <ul>
-              <li>
-                <a class="nav-link" href="#home">Home</a>
-              </li>
-              <li>
-                <a class="nav-link" href="#about">Sobre</a>
-              </li>
-              <li>
-                <a class="nav-link" href="#technologies">Tecnologias</a>
-              </li>
-              <li>
-                <a class="nav-link" href="#contato">Contato</a>
-              </li>
-            </ul>
+          <!-- Home Image -->
+          <div class="home-image">
+            <img src="assets/images/felipe.webp" alt="" />
           </div>
-        </nav>
+        </section>
+      </div>
 
-      </header>
+      <!-- Main Content -->
+      <main>
+        <!-- About -->
+        <section id="about">
+          <h2>Sobre</h2>
+          <div class="about-content">
+            <p>
+              Desenvolvedor de Software com foco na criação de APIs RESTful
+              robustas e eficientes, utilizando principalmente Node.js com
+              Express.js e Java com Spring Boot. Minha experiência em front-end
+              inclui a criação de sites e interfaces de aplicação com HTML, CSS e
+              JavaScript.
+            </p>
+            <p>
+              Minha trajetória anterior como Scrum Master me proporcionou uma base
+              sólida em metodologias ágeis, organização de equipes e processos de
+              desenvolvimento de software. Essa vivência me permite ter uma visão
+              estratégica sobre o ciclo de vida do produto, desde a definição do
+              roadmap e a experiência do usuário (UX) até o relacionamento com
+              stakeholders, utilizando ferramentas como o Jira.
+            </p>
+            <p>
+              Atualmente, aplico meus conhecimentos técnicos em projetos práticos,
+              seguindo os princípios do Clean Code, utilizando versionamento com
+              Git e automação de ambientes com Docker. Tenho experiência com
+              bancos de dados relacionais como PostgreSQL e SQLite, e na
+              implementação de autenticação com JWT e criptografia com Bcrypt.
+            </p>
+          </div>
+        </section>
 
-      <!-- Home -->
-      <section id="home" class="home container">
-        <!-- Home Name -->
-        <div class="home-text">
-          <div class="home-name">
-            <h1>Felipe Carneiro</h1>
+        <!-- Technologies -->
+
+        <section id="technologies">
+          <h2>Tecnologias</h2>
+          <div class="technologies-content">
+            <!-- Backend -->
+            <div class="stack">
+              <h3 class="stack-title">Backend</h3>
+
+              <!-- Backend - Tags -->
+              <div class="stack-tags">
+                <div class="tech-tag">
+                  <i class="devicon-nodejs-plain colored"></i>
+                  <p>Node.js</p>
+                </div>
+
+                <div class="tech-tag">
+                  <i class="devicon-express-original"></i>
+                  <p>Express</p>
+                </div>
+
+                <div class="tech-tag">
+                  <i class="devicon-java-plain"></i>
+                  <p>Java</p>
+                </div>
+
+                <div class="tech-tag">
+                  <i class="devicon-spring-original colored"></i>
+                  <p>Spring</p>
+                </div>
+
+                <div class="tech-tag">
+                  <i class="devicon-sqlite-plain colored"></i>
+                  <p>SQLite</p>
+                </div>
+
+                <div class="tech-tag">
+                  <i class="devicon-postgresql-plain colored"></i>
+                  <p>PostgreSQL</p>
+                </div>
+
+                <div class="tech-tag">
+                  <i class="devicon-neo4j-plain colored"></i>
+                  <p>Neo4j</p>
+                </div>
+
+                <div class="tech-tag">
+                  <i class="fa-solid fa-gear"></i>
+                  <p>APIs Restful</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Frontend -->
+            <div class="stack">
+              <h3 class="stack-title">Frontend</h3>
+
+              <!-- Frontend - Tags -->
+              <div class="stack-tags">
+                <div class="tech-tag">
+                  <i class="devicon-html5-plain colored"></i>
+                  <p>HTML</p>
+                </div>
+
+                <div class="tech-tag">
+                  <i class="devicon-css3-plain colored"></i>
+                  <p>CSS</p>
+                </div>
+
+                <div class="tech-tag">
+                  <i class="devicon-javascript-plain colored"></i>
+                  <p>JavaScript</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tools -->
+
+            <div class="stack">
+              <h3 class="stack-title">Tools</h3>
+
+              <!-- Stack - Tags -->
+              <div class="stack-tags">
+                <div class="tech-tag">
+                  <i class="devicon-docker-plain colored"></i>
+                  <p>Docker</p>
+                </div>
+
+                <div class="tech-tag">
+                  <i class="devicon-npm-original-wordmark colored"></i>
+                  <p>NPM</p>
+                </div>
+
+                <div class="tech-tag">
+                  <i class="devicon-postman-plain colored"></i>
+                  <p>Postman</p>
+                </div>
+
+                <div class="tech-tag">
+                  <i class="devicon-github-original"></i>
+                  <p>GitHub</p>
+                </div>
+
+                <div class="tech-tag">
+                  <i class="devicon-git-plain colored"></i>
+                  <p>Git</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <!-- Home Subtitle -->
-          <div class="home-sub">
-            <h1>Desenvolvedor Backend</h1>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects">
+          <div class="projects">
+            <h2>Projetos</h2>
           </div>
-          <!-- Tagline -->
-          <div class="home-tagline">
-            <p>Transformando ideias em funcionalidades.</p>
+          <!-- projects-container -->
+          <div class="projects-content">
+            <div class="projects-container">
+              <!-- Project 1 -->
+
+              <!-- project-display-container -->
+              <div class="project-display-container">
+                <!-- project-image-->
+                <div class="project-image">
+                  <a
+                    target="_blank"
+                    href="https://github.com/fecarneiro/nodejs-clean-architecture-api"
+                  >
+                    <img src="assets/images/project1.webp" alt="" />
+                  </a>
+                </div>
+
+                <!-- project-text-container -->
+                <div class="project-text-container">
+                  <!-- project-title -->
+                  <div class="project-title">
+                    <h3>Node.js Clean Architecture REST API</h3>
+                  </div>
+
+                  <!-- project-description -->
+                  <div class="project-description">
+                    <p>
+                      Uma API REST Node.js robusta, desenvolvida com os princípios
+                      da Arquitetura Limpa, apresentando autenticação JWT
+                      abrangente, Controle de Acesso Baseado em Funções (RBAC) e
+                      operações CRUD completas. Este projeto demonstra padrões de
+                      design de software de nível empresarial com criptografia de
+                      senha segura, implementação de padrões de repositório e
+                      otimização de desempenho por meio de cache e monitoramento
+                      integrados.
+                    </p>
+                  </div>
+
+                  <!-- project-tags -->
+                  <div class="project-tags">
+                    <span class="project-tech-tag">Node.js</span>
+                    <span class="project-tech-tag">JavaScript</span>
+                    <span class="project-tech-tag">REST API</span>
+                    <span class="project-tech-tag">Express</span>
+                    <span class="project-tech-tag">JWT</span>
+                    <span class="project-tech-tag">Docker</span>
+                    <span class="project-tech-tag">Clean Architecture</span>
+                    <span class="project-tech-tag">SQLite</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 2 -->
+
+              <!-- project-display-container -->
+              <div class="project-display-container">
+                <!-- project-image-->
+                <div class="project-image">
+                  <a
+                    target="_blank"
+                    href="https://github.com/fecarneiro/java-polyglot-persistence-api"
+                  >
+                    <img src="assets/images/project2.webp" alt="" />
+                  </a>
+                </div>
+
+                <!-- project-text-container -->
+                <div class="project-text-container">
+                  <!-- project-title -->
+                  <div class="project-title">
+                    <h3>Java Polyglot Persistence API</h3>
+                  </div>
+
+                  <!-- project-description -->
+                  <div class="project-description">
+                    <p>
+                      Uma API REST Spring Boot 3 e Java 21 que demonstra uma
+                      arquitetura de persistência poliglota, sincronizando
+                      perfeitamente os dados do usuário entre bancos de dados
+                      relacionais (PostgreSQL) e grafos (Neo4j). Este projeto
+                      aborda o gerenciamento complexo de dados e o tratamento de
+                      relacionamentos com configurações de transações
+                      independentes para cada banco de dados.
+                    </p>
+                  </div>
+
+                  <!-- project-tags -->
+                  <div class="project-tags">
+                    <span class="project-tech-tag">Java</span>
+                    <span class="project-tech-tag">Sprig Boot</span>
+                    <span class="project-tech-tag">PostgreSQL</span>
+                    <span class="project-tech-tag">REST API</span>
+                    <span class="project-tech-tag">Neo4j</span>
+                    <span class="project-tech-tag">Maven</span>
+                    <span class="project-tech-tag">Microservices</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <!-- Social Media -->
-          <div class="home-icons">
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer id="contact">
+        <h2>Contato</h2>
+
+        <!-- Contact -->
+        <div class="contact">
+          <!-- Form -->
+          <div class="contact-form">
+            <form
+              action="https://formspree.io/f/meokzony"
+              method="post"
+              class="form-example"
+            >
+              <!-- email + name -->
+              <div class="form-name-email">
+                <div class="form-name">
+                  <label for="name">Nome*</label>
+                  <input
+                    class="form-name-input"
+                    type="text"
+                    name="name"
+                    id="name"
+                    required
+                  />
+                </div>
+
+                <div class="form-email">
+                  <label for="email">Email*</label>
+                  <input type="email" name="email" id="email" required />
+                </div>
+              </div>
+
+              <div class="form-message">
+                <label for="message">Mensagem*</label>
+                <textarea id="message" name="message" required></textarea>
+              </div>
+
+              <div class="form-button">
+                <input class="button" type="submit" value="Enviar" />
+              </div>
+            </form>
+          </div>
+
+          <!-- Contact Icons -->
+          <div class="contact-icons">
             <a href="https://github.com/fecarneiro" target="_blank">
               <i class="fa-brands fa-github"></i>
             </a>
@@ -97,316 +414,7 @@
             </a>
           </div>
         </div>
-
-        <!-- Home Image -->
-        <div class="home-image">
-          <img src="assets/images/felipe.webp" alt="" />
-        </div>
-      </section>
+      </footer>
     </div>
-
-    <!-- Main Content -->
-    <main>
-      <!-- About -->
-      <section id="about">
-        <div class="about container">
-          <h2>Sobre</h2>
-          <p>
-            Desenvolvedor de Software com foco na criação de APIs RESTful
-            robustas e eficientes, utilizando principalmente Node.js com
-            Express.js e Java com Spring Boot. Minha experiência em front-end
-            inclui a criação de sites e interfaces de aplicação com HTML, CSS e
-            JavaScript.
-          </p>
-          <p>
-            Minha trajetória anterior como Scrum Master me proporcionou uma base
-            sólida em metodologias ágeis, organização de equipes e processos de
-            desenvolvimento de software. Essa vivência me permite ter uma visão
-            estratégica sobre o ciclo de vida do produto, desde a definição do
-            roadmap e a experiência do usuário (UX) até o relacionamento com
-            stakeholders, utilizando ferramentas como o Jira.
-          </p>
-          <p>
-            Atualmente, aplico meus conhecimentos técnicos em projetos práticos,
-            seguindo os princípios do Clean Code, utilizando versionamento com
-            Git e automação de ambientes com Docker. Tenho experiência com
-            bancos de dados relacionais como PostgreSQL e SQLite, e na
-            implementação de autenticação com JWT e criptografia com Bcrypt.
-          </p>
-        </div>
-      </section>
-
-      <!-- Technologies -->
-      <section id="technologies">
-        <div class="technologies container">
-          <h2>Tecnologias</h2>
-
-          <!-- Backend -->
-          <div class="stack">
-            <h3 class="stack-title">Backend</h3>
-
-            <!-- Backend - Tags -->
-            <div class="stack-tags">
-              <div class="tech-tag">
-                <i class="devicon-nodejs-plain colored"></i>
-                <p>Node.js</p>
-              </div>
-
-              <div class="tech-tag">
-                <i class="devicon-express-original"></i>
-                <p>Express</p>
-              </div>
-
-              <div class="tech-tag">
-                <i class="devicon-java-plain"></i>
-                <p>Java</p>
-              </div>
-
-              <div class="tech-tag">
-                <i class="devicon-spring-original colored"></i>
-                <p>Spring</p>
-              </div>
-
-              <div class="tech-tag">
-                <i class="devicon-sqlite-plain colored"></i>
-                <p>SQLite</p>
-              </div>
-
-              <div class="tech-tag">
-                <i class="devicon-postgresql-plain colored"></i>
-                <p>PostgreSQL</p>
-              </div>
-
-              <div class="tech-tag">
-                <i class="devicon-neo4j-plain colored"></i>
-                <p>Neo4j</p>
-              </div>
-
-              <div class="tech-tag">
-                <i class="fa-solid fa-gear"></i>
-                <p>APIs Restful</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Frontend -->
-          <div class="stack">
-            <h3 class="stack-title">Frontend</h3>
-
-            <!-- Frontend - Tags -->
-            <div class="stack-tags">
-              <div class="tech-tag">
-                <i class="devicon-html5-plain colored"></i>
-                <p>HTML</p>
-              </div>
-
-              <div class="tech-tag">
-                <i class="devicon-css3-plain colored"></i>
-                <p>CSS</p>
-              </div>
-
-              <div class="tech-tag">
-                <i class="devicon-javascript-plain colored"></i>
-                <p>JavaScript</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Tools -->
-
-          <div class="stack">
-            <h3 class="stack-title">Tools</h3>
-
-            <!-- Stack - Tags -->
-            <div class="stack-tags">
-              <div class="tech-tag">
-                <i class="devicon-docker-plain colored"></i>
-                <p>Docker</p>
-              </div>
-
-              <div class="tech-tag">
-                <i class="devicon-npm-original-wordmark colored"></i>
-                <p>NPM</p>
-              </div>
-
-              <div class="tech-tag">
-                <i class="devicon-postman-plain colored"></i>
-                <p>Postman</p>
-              </div>
-
-              <div class="tech-tag">
-                <i class="devicon-github-original"></i>
-                <p>GitHub</p>
-              </div>
-
-              <div class="tech-tag">
-                <i class="devicon-git-plain colored"></i>
-                <p>Git</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Projects -->
-      <section id="projects" class="projects">
-        <!-- projects-container -->
-        <h2>Projetos</h2>
-        <div class="projects-container container">
-          <!-- Project 1 -->
-
-          <!-- project-display-container -->
-          <div class="project-display-container">
-            <!-- project-image-->
-            <div class="project-image">
-              <a
-                target="_blank"
-                href="https://github.com/fecarneiro/nodejs-clean-architecture-api"
-              >
-                <img src="assets/images/project1.webp" alt="" />
-              </a>
-            </div>
-
-            <!-- project-text-container -->
-            <div class="project-text-container">
-              <!-- project-title -->
-              <div class="project-title">
-                <h3>Node.js Clean Architecture REST API</h3>
-              </div>
-
-              <!-- project-description -->
-              <div class="project-description">
-                <p>
-                  Uma API REST Node.js robusta, desenvolvida com os princípios
-                  da Arquitetura Limpa, apresentando autenticação JWT
-                  abrangente, Controle de Acesso Baseado em Funções (RBAC) e
-                  operações CRUD completas. Este projeto demonstra padrões de
-                  design de software de nível empresarial com criptografia de
-                  senha segura, implementação de padrões de repositório e
-                  otimização de desempenho por meio de cache e monitoramento
-                  integrados.
-                </p>
-              </div>
-
-              <!-- project-tags -->
-              <div class="project-tags">
-                <span class="project-tech-tag">Node.js</span>
-                <span class="project-tech-tag">JavaScript</span>
-                <span class="project-tech-tag">REST API</span>
-                <span class="project-tech-tag">Express</span>
-                <span class="project-tech-tag">JWT</span>
-                <span class="project-tech-tag">Docker</span>
-                <span class="project-tech-tag">Clean Architecture</span>
-                <span class="project-tech-tag">SQLite</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Project 2 -->
-
-          <!-- project-display-container -->
-          <div class="project-display-container">
-            <!-- project-image-->
-            <div class="project-image">
-              <a
-                target="_blank"
-                href="https://github.com/fecarneiro/java-polyglot-persistence-api"
-              >
-                <img src="assets/images/project2.webp" alt="" />
-              </a>
-            </div>
-
-            <!-- project-text-container -->
-            <div class="project-text-container">
-              <!-- project-title -->
-              <div class="project-title">
-                <h3>Java Polyglot Persistence API</h3>
-              </div>
-
-              <!-- project-description -->
-              <div class="project-description">
-                <p>
-                  Uma API REST Spring Boot 3 e Java 21 que demonstra uma
-                  arquitetura de persistência poliglota, sincronizando
-                  perfeitamente os dados do usuário entre bancos de dados
-                  relacionais (PostgreSQL) e grafos (Neo4j). Este projeto aborda
-                  o gerenciamento complexo de dados e o tratamento de
-                  relacionamentos com configurações de transações independentes
-                  para cada banco de dados.
-                </p>
-              </div>
-
-              <!-- project-tags -->
-              <div class="project-tags">
-                <span class="project-tech-tag">Java</span>
-                <span class="project-tech-tag">Sprig Boot</span>
-                <span class="project-tech-tag">PostgreSQL</span>
-                <span class="project-tech-tag">REST API</span>
-                <span class="project-tech-tag">Neo4j</span>
-                <span class="project-tech-tag">Maven</span>
-                <span class="project-tech-tag">Microservices</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!-- Footer -->
-    <footer id="contact">
-      <!-- Contact -->
-      <div class="contact">
-        <h2>Contato</h2>
-
-        <!-- Form -->
-        <div class="contact-form">
-          <form
-            action="https://formspree.io/f/meokzony"
-            method="post"
-            class="form-example"
-          >
-
-          <!-- email + name -->
-            <div class="form-name-email">
-              <div class="form-name">
-                <label for="name">Nome*</label>
-                <input class="form-name-input" type="text" name="name" id="name" required />
-              </div>
-
-              <div class="form-email">
-                <label for="email">Email*</label>
-                <input type="email" name="email" id="email" required />
-              </div>
-            </div>
-
-            <div class="form-message">
-              <label for="message">Mensagem*</label>
-              <textarea id="message" name="message" required></textarea>
-            </div>
-
-            <div class="form-button">
-              <input class="button" type="submit" value="Enviar" />
-            </div>
-
-          </form>
-        </div>
-
-        <!-- Contact Icons -->
-        <div class="contact-icons">
-          <a href="https://github.com/fecarneiro" target="_blank">
-            <i class="fa-brands fa-github"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/felipe-iafigliola-carneiro/"
-            target="_blank"
-          >
-            <i class="fa-brands fa-linkedin-in"></i>
-          </a>
-          <a href="mailto:fe.iacarneiro@gmail.com" target="_blank">
-            <i class="fa-regular fa-envelope"></i>
-          </a>
-        </div>
-      </div>
-    </footer>
   </body>
 </html>
