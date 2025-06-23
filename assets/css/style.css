@@ -265,8 +265,14 @@ p {
 
 /* Image */
 
+.project-image {
+ display: flex;
+ max-width: 350px;
+}
+
 .project-image img {
   max-width: 350px;
+  height: auto;
   border-radius: 20px;
 
 }
@@ -295,12 +301,14 @@ p {
 /* Project-Tags */
 .project-tags {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
 }
 
 /* project-tech-tag */
 .project-tech-tag {
   padding: 0.6rem;
+  background-color: #1d1e22;
   border-radius: 20px;
   font-size: 0.8rem;
 }
