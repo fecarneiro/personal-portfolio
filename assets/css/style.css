@@ -32,12 +32,14 @@ h1, h2, h3 {
 h2 {
   font-size: 2rem;
   color: var(--color-accent);
-  padding: 0 1rem 2rem;
+  text-align: center;
+  margin: 0 auto 2rem;
+  padding: 0;
 }
 
 @media(min-width: 768px) {
   h2 {
-    padding: 0 0 2rem 2rem;
+    /* padding: 0 0 2rem 2rem; */
   }
 }
 
@@ -59,8 +61,9 @@ p {
 }
 
 section {
-  padding-top: 2rem;
+  padding-top: 4rem;
   padding-bottom: 3rem;
+  scroll-margin-top: 80px;
 }
 
 @media(min-width: 768px) {
@@ -185,10 +188,11 @@ with hidden nav-list */
 }
 
 /*----------- logo -----------*/
-.logo p {
+.logo a {
   color:#feda6a;
   font-weight: 600;
   font-size: 1rem;
+  text-decoration: none;
 }
 
 
@@ -293,7 +297,7 @@ with hidden nav-list */
 /*-------------------- about --------------------*/
 
 .about-container {
-  padding: 2rem 1rem 5rem;
+  padding: 0 1rem;
 }
 
 .about-content {
@@ -322,7 +326,7 @@ with hidden nav-list */
   color: white;
   display: flex;
   flex-direction: column;
-  padding: 0 1.875rem 1.875rem;
+  padding: 0 1.875rem;
 }
 
 .technologies h2 {
@@ -351,7 +355,7 @@ with hidden nav-list */
 
 .stack-tags {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
   gap: 0.5rem;
   padding-bottom: 3.125rem;
 
@@ -486,7 +490,7 @@ with hidden nav-list */
 /*-------------------- contact --------------------*/
 
 footer {
-  padding: 30px 0;
+  padding-bottom: 2rem;
 }
 
 .contact {
@@ -507,6 +511,16 @@ footer {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  padding: 0 1rem;
+}
+
+
+@media (min-width: 600px) {
+  .contact-form {
+    padding: 0;
+  }
 }
 
 input[type="text"],
