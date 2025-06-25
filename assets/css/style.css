@@ -465,10 +465,24 @@ textarea[name="message"] {
 /* name + email */
 .form-name-email {
   display: flex;
-  gap: 14px;
+  flex-direction: column;
+  gap: 1rem;
 }
 
+@media (min-width: 600px) {
+  .form-name-email {
+    flex-direction: row;
+    gap: 1rem;
+  }
 
+  .form-name, .form-email {
+    flex: 1;
+  }
+}
+
+input, textarea {
+  width: 100%;
+}
 
 /* message */
 .form-message {
