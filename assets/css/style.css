@@ -53,42 +53,73 @@ p {
 }
 
 /*-------------------- navbar --------------------*/
+
+/* mobile-first base with hidden nav-list */
 .navbar-content {
   background-color: #27292f;
-  height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 30px;
+  padding: 0.5rem 1rem;
 
 }
 
-.logo p {
-  color:#feda6a;
-  font-weight: 600;
-  font-size: 1rem;
+.nav-list {
+  display: none;
 }
 
-.nav-list ul {
-  display: flex;
-  justify-content:center;
-  list-style: none;
-  gap: 1.5rem;
-}
-
-.nav-list li {
-  display: flex;
-}
-
-.nav-link {
-  font-size: 1rem;
-  font-weight: 400;
-  text-decoration: none;
+.nav-toggle {
+  background: none;
+  border: none;
   color: #fff;
+  font-size: 1.5rem;
 }
 
-.nav-link:hover {
-  color: #feda6a;
+
+
+
+
+
+
+
+@media(min-width: 768px) {
+  .navbar-content {
+    background-color: #27292f;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+
+  }
+
+  .logo p {
+    color:#feda6a;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+
+  .nav-list ul {
+    display: flex;
+    justify-content:center;
+    list-style: none;
+    gap: 1.5rem;
+  }
+
+  .nav-list li {
+    display: flex;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .nav-link:hover {
+    color: #feda6a;
+  }
 }
 
 /*-------------------- home --------------------*/
