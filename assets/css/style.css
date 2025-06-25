@@ -1,4 +1,4 @@
-/* Global */
+/*-------------------- global --------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
 
 * {
@@ -8,30 +8,40 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 100%; /* 16px */
+}
+
 body {
   background-color: #1d1e22;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
+h1, h2, h3 {
+  line-height: 1.2;
 }
 
 h2 {
   font-size: 2rem;
   color: #feda6a;
-  padding: 0 0 30px 30px;
+  padding: 0 0 1.875rem 1.875rem; /* 30px */
 
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 1.25rem; /* 20px */
   font-weight:600;
 }
 
 p {
+  font-size: 1rem;
   line-height: 1.6;
-  letter-spacing: 1px;
+  letter-spacing: 0.05rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
 /*-------------------- hero-container --------------------*/
@@ -148,6 +158,7 @@ p {
   border: 5px solid #feda6a;
   background-color: #fff;
 }
+
 
 /*-------------------- about --------------------*/
 
@@ -425,47 +436,26 @@ height: 8rem
 }
 
 
-@media only screen and (width <= 850px) {
-body {
-  background-color: rgb(42, 10, 10);
-}
 
+/* @media only screen and (width <= 800px) {
 .stack-tags {
-  display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  padding-bottom: 50px;
-
-
+}
+.project-display-container {
+  flex-direction: column;
 }
 }
 
 @media only screen and (width <= 560px) {
-  body {
-    background-color: rosybrown;
-  }
-
-  .stack-tags {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.5rem;
-    padding-bottom: 50px;
+.stack-tags {
+  grid-template-columns: repeat(2, 1fr);
+}
 
 
-  }
 }
 
 @media only screen and (width <= 460px) {
-  body {
-    background-color:  rgb(42, 10, 10);
-  }
-
-  .stack-tags {
-    display: grid;
+.stack-tags {
     grid-template-columns: repeat(1, 1fr);
-    gap: 1rem;
-    padding-bottom: 50px;
-
-
   }
-}
+} */
