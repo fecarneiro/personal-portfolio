@@ -152,14 +152,24 @@ with hidden nav-list */
 
 /*-------------------- home --------------------*/
 
+/*--------- home-img --------- */
 .home {
   display: flex;
-  justify-content: space-between;
-  flex-grow: 1;
+  flex-direction: column;
   align-items: center;
-  width: 100%;
-  padding: 0 30px;
+  text-align: center;
+  padding: 2rem 1rem;
+  gap: 2rem;
 }
+
+.home-image img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 50%;
+  border: 8px solid #feda6a;
+  background-color: #fff;
+}
+
 
 /*--------- home-text --------- */
 
@@ -174,6 +184,10 @@ with hidden nav-list */
   font-size: 3.75rem;
   font-weight: 700;
   line-height: 1.2;
+}
+
+.home-text h1 {
+  margin-bottom: 0.5rem;
 }
 
 .home-sub h1 {
@@ -208,21 +222,26 @@ with hidden nav-list */
   color: #feda6a;
 }
 
-/*--------- home-img --------- */
 
-.home-image img {
-  max-width: 400px;
-  height: auto;
-  border-radius: 50%;
-  border: 5px solid #feda6a;
-  background-color: #fff;
+@media (min-width: 768px) {
+  .home {
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+  }
+
+  .home-image img {
+    max-width: 400px;
+  }
 }
+
 
 
 /*-------------------- about --------------------*/
 
 .about-container {
-  padding: 0 30px 80px 30px;
+  padding: 2rem 1rem 5rem;
 }
 
 .about-content {
@@ -230,15 +249,15 @@ with hidden nav-list */
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
-  padding: 30px;
+  gap: 1.875rem;
+  padding: 1.875rem;
   background-color: #27292f;
   border-radius: 10px;
+  width: 100%;
+  max-width: 1000px; /* 800px */
+  margin: 0 auto;
 }
 
-.about h2 {
-  color: #feda6a;
-}
 
 /*----------------- technologies -----------------*/
 
@@ -246,7 +265,7 @@ with hidden nav-list */
   color: white;
   display: flex;
   flex-direction: column;
-  padding: 0 30px 30px 30px;
+  padding: 0 1.875rem 1.875rem;
 }
 
 .technologies h2 {
@@ -262,21 +281,21 @@ with hidden nav-list */
 .stack {
   display: flex;
   flex-direction: column;
-  padding: 0 30px;
+  padding: 0 1.875rem;
 
 }
 
 .stack-title {
   font-size: 1.2rem;
   font-weight: 700;
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
 }
 
 .stack-tags {
   display: grid;
-  grid-template-columns: repeat(4, 4fr);
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 1rem;
-  padding-bottom: 50px;
+  padding-bottom: 3.125rem;
 
 
 }
@@ -286,7 +305,7 @@ with hidden nav-list */
   align-items: center;
   background-color: #27292f;
   border-radius: 10px;
-  padding: 10px;
+  padding: 0.625rem;
   gap: 1rem;
 }
 
@@ -308,7 +327,7 @@ with hidden nav-list */
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 30px;
+  padding: 0 1.875rem;
   width: 100%;
 
 }
@@ -318,32 +337,29 @@ with hidden nav-list */
 .projects-container {
   display: flex;
   flex-direction: column;
-  gap: 40px;
-  padding: 0 30px;
+  gap: 2.5rem;
+  padding: 0 1.875rem;
 
 }
 
-/*----------- Project Display Container -----------*/
+/*-------- Project Display Container --------*/
 
 .project-display-container {
-  color: #fff;
   display: flex;
+  flex-direction: column;
   background-color: #27292f;
   align-items: center;
-  padding: 30px;
+  gap: 1.5rem;
+  padding: 1.5rem;
 }
 
 /* Image */
 
-.project-image {
- display: flex;
- max-width: 350px;
-}
-
 .project-image img {
-  max-width: 350px;
+  width: 100%;
+  max-width: 300px;
   height: auto;
-  border-radius: 20px;
+  border-radius: 10px;
 
 }
 
@@ -361,9 +377,6 @@ with hidden nav-list */
  padding-left: 2rem;
 }
 
-/* project-title */
-
-
 /* project-description */
 .project-description {
   font-size: 0.8rem;
@@ -379,11 +392,25 @@ with hidden nav-list */
 .project-tech-tag {
   padding: 0.6rem;
   background-color: #1d1e22;
-  border-radius: 20px;
+  border-radius: 10px;
   font-size: 0.8rem;
 }
 
+@media (min-width: 768px) {
+  .project-display-container {
+    flex-direction: row;
+    align-items: center;
+  }
 
+  .project-image {
+    flex: 0 0 auto;
+  }
+
+  .project-text-container {
+    flex: 1;
+    padding-left: 1.5rem;
+  }
+}
 
 
 
