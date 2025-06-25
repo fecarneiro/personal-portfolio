@@ -12,6 +12,13 @@ document.addEventListener('DOMContentLoaded', function () {
     navToggle.setAttribute('aria-expanded', isOpen);
   });
 
+  // reset opened toggle menu when resized to larger screen
+  window.addEventListener('resize', () => {
+    if (window.innerWidth >= 768) {
+      document.querySelector('.navbar-content').classList.remove('open');
+    }
+  });
+
   // closing navbar after menu select
   navLinks.forEach(function (link) {
     link.addEventListener('click', function () {
