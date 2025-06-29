@@ -88,6 +88,7 @@ footer {
 /*-------------------- hero-container --------------------*/
 
 .hero-container {
+  padding-top: 4rem;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -282,8 +283,6 @@ with hidden nav-list */
 
 
 @media (min-width: 768px) {
-
-
   .home {
     flex-direction: row;
     text-align: left;
@@ -303,7 +302,6 @@ with hidden nav-list */
 
   .home-icons {
     justify-content: start;
-
   }
 }
 
