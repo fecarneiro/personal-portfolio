@@ -66,12 +66,24 @@ section {
   scroll-margin-top: 80px;
 }
 
+footer {
+  padding-bottom: 3rem;
+  scroll-margin-top: 80px;
+}
+
 @media(min-width: 768px) {
   section {
     padding-top: 3rem;
     padding-bottom: 4rem;
   }
+
+  footer {
+        padding-top: 3rem;
+    padding-bottom: 4rem;
+  }
 }
+
+
 
 /*-------------------- hero-container --------------------*/
 
@@ -203,28 +215,23 @@ with hidden nav-list */
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; /* adicionado para centralizar verticalmente */
+  justify-content: flex-start;
   text-align: center;
   padding: 2rem 1rem;
-  gap: 1.5rem; /* reduzido levemente */
-  min-height: 100vh;
+  gap: 1rem;
+  min-height: 80vh;
 }
 
 .home-image img {
   width: 100%;
-  max-width: 200px;
+  max-width: 140px;
   height: auto;
   border-radius: 50%;
-  border: 8px solid #feda6a;
+  border: 6px solid #feda6a;
+  box-shadow: 0 2px 12px #0002;
   background-color: #fff;
+  margin-bottom: 0.5rem;
 }
-
-@media (min-width: 768px) {
-  .home-image img {
-    max-width: 280px;
-  }
-}
-
 
 /*--------- home-text --------- */
 
@@ -259,10 +266,10 @@ with hidden nav-list */
 .home-icons {
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: 0.6rem;
   color: white;
-  font-size: 1.5rem;
-  gap: 1.5rem;
+  font-size: 1.2rem;
+  gap: 1rem;
 }
 
 .home-icons i {
@@ -275,11 +282,19 @@ with hidden nav-list */
 
 
 @media (min-width: 768px) {
+
+
   .home {
     flex-direction: row;
     text-align: left;
     justify-content: space-between;
     padding: 4rem 2rem;
+  }
+
+  .home-image img {
+    max-width: 280px;
+    border: 8px solid #feda6a;
+    width: 100%;
   }
 
   .home-image img {
@@ -489,9 +504,7 @@ with hidden nav-list */
 
 /*-------------------- contact --------------------*/
 
-footer {
-  padding-bottom: 2rem;
-}
+
 
 .contact {
   color: white;
